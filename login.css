@@ -1,0 +1,133 @@
+/* Reset default margins and padding for the entire page */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.content {
+    margin: 20px;
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.button-container {
+    margin-top: 10px;
+}
+
+input[type="submit"],
+input[type="reset"] {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover,
+input[type="reset"]:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+}
+
+/* Media Query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav ul li {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    /* Reduce the size of input fields */
+    input[type="text"],
+    input[type="password"] {
+        font-size: 12px; /* Adjust the font size */
+        padding: 5px;    /* Adjust the padding */
+        width: 80%;      /* Adjust the width if needed */
+    }
+
+    .button-container {
+        margin-top: 5px;
+    }
+
+    input[type="submit"],
+    input[type="reset"] {
+        padding: 8px 16px;
+    }
+}

@@ -1,0 +1,137 @@
+/* Reset default margins and padding for the entire page */
+body, h1, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column; /* Added to stack the heading and form */
+}
+
+.content {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 10px; /* Reduce the space between the heading and form */
+}
+
+form {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 80%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Media Query for screens smaller than 768px */
+@media screen and (max-width: 768px) {
+    main {
+        align-items: flex-start;
+    }
+
+    .content {
+        width: 80%;
+    }
+}
+
+/* Media Query for screens smaller than 480px */
+@media screen and (max-width: 480px) {
+    header {
+        font-size: 18px;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav ul li {
+        font-size: 14px;
+    }
+
+    label {
+        font-size: 14px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"] {
+        font-size: 14px;
+        padding: 5px;
+    }
+
+    button {
+        padding: 8px 16px;
+    }
+
+    .content {
+        margin-top: 5px; /* Reduce the space further for smaller screens */
+    }
+}
