@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Dashboard - Technical Blog</title>
-    <link href="css/dashboard.css" rel="stylesheet" type="text/css"/>
+    <link href="dashboard.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header>
