@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Register - Technical Blog</title>
-    <link href="css/register.css" rel="stylesheet" type="text/css"/>
+    <link href="register.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header>
