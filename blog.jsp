@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Blog - Technical Blog</title>
-    <link href="css/blog.css" rel="stylesheet" type="text/css"/>
+    <link href="blog.css" rel="stylesheet" type="text/css"/>
 </head>
 <body>
     <header>
